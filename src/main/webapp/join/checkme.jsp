@@ -135,12 +135,35 @@
         </div>
         <div class="card card-body bg-light mt-5 mx-3">
             <h3>실명확인 회원가입</h3>
-            <form action="checkfrm2" name="checkfrm2"></form>
+            <form action="checkfrm2" name="checkfrm2">
+
+                <div class="row">
+                    <div class="col-5 offset-1">
+
+                    </div>
+                    <div class="col-5">
+                        <li>실명확인 회원가입시 공개 게시판 이용이 가능합니다.</li>
+                        <li>타인의 주민등록번호를 임의로 사용하면 <span style="color:red;">'주민등록법'에 의해
+                            3년 이하의 징역 또는 1천만원 이하의 벌금</span>이 부과될 수 있습니다.</li>
+                        <li>입력하신 주민등록번호는 <span style="color:red;">별도 저장되지 않으며,
+                            신용평가기관을 통한 실명확인용</span>으로만 이용됩니다.</li>
+                        <li>개인정보보호법에 따라 <span style="color:red;">이용 동의</span>를 받습니다.</li>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-center">
+                        <hr class="w-75 mx-auto">
+                        <button type="button" class="btn btn-primary" id="check2btn"><i class="fas fa-check"></i>확인하기</button>
+                        <button type="button" class="btn btn-danger" id="cancle2btn"><i class="fas fa-times"></i>취소하기</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
     </div>
 
-    <footer>
+    <footer class="mt-5">
         <h6 class="col text-end bg-dark p-3 bg-opacity-10 fw-bold">
             Copyright &copy; Lorem Ipsum 2023. kimch321. All Right Reserved. Created by Bootstrap5.</h6>
     </footer>
