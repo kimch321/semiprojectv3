@@ -29,8 +29,25 @@
             <li class="nav-item"><a href="/admin.jsp" class="nav-link">관리자</a></li>
         </ul>
     </nav>
-    <div id="main"></div>
-    <footer></footer>
+
+    <div id="main">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-1 text-center p-3">超機密 PROJECT 補完計劃</h1>
+                <div class="col-8 offset-2">
+                    <img src="https://picsum.photos/856/600" class="img-fluid" alt="randomImg">
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+    </div>
+
+    <footer>
+        <h6 class="col text-end bg-dark p-3 bg-opacity-10">
+            Copyright &copy; Lorem Ipsum 2023. kimch321. All Right Reserved.
+            <br/> Created by Bootstrap5.</h6>
+    </footer>
 </div>
 
 <!-- 로그인 폼 모달 -->
