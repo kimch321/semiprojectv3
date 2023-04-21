@@ -7,7 +7,7 @@
     <title>semi project v3</title>
     <link rel="stylesheet" href="./css/bs5/bootstrap.min.css">
 </head>
-<body class="bg-dark">
+<body class="bg-dark" style="background-image: url(https://jjalbang.today/files/jjalbox/2016/08/20160812_57ad9d9b92b12.gif)">
 
 <div class="container bg-white">
     <header class="row">
@@ -41,14 +41,71 @@
         </div>
         <div class="row">
             <div class="col-8 offset-2 text-center p-3 ">
-                <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt,
-                ultrices felis at, mattis metus. Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque
-                metus at eros ullamcorper, ut consectetur urna consequat. Fusce a porttitor est, at ultricies urna. Nam dictum
-                sollicitudin massa in euismod. Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
-                <div><button class="btn btn-success">지금 바로 시작하기</button></div>
+                <p>Quisque commodo sit amet erat ut eleifend. Nullam in blandit metus,
+                    in convallis dui. In vel viverra mauris. Donec eu pulvinar nunc. Donec mi diam, bibendum nec fringilla in,
+                    suscipit sit amet elit. Nam nec faucibus eros, hendrerit feugiat ex. Donec sollicitudin tincidunt sem vitae placerat.
+                    Etiam porttitor urna diam, ac finibus augue tincidunt at. Pellentesque venenatis a odio vel interdum. Integer imperdiet lacus est,
+                    vitae vulputate lectus laoreet at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Maecenas nec eros ullamcorper, sodales lorem non, dignissim justo. Proin id risus neque. Nunc posuere, turpis eu interdum vestibulum,
+                    risus leo placerat est, ut aliquet mi mi a elit. Nulla tempus, massa et mollis sodales, purus massa mollis sem, in mollis mauris tortor
+                    vitae eros.</p>
+                <div><button type="button" class="btn btn-success">지금 바로 시작하기</button></div>
             </div>
         </div>
-        <div class="row"></div>
+        <article>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <h2>극비</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+                <div class="col-4">
+                    <h2>오인</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+                <div class="col-4">
+                    <h2>경고</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <h2>위험</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+                <div class="col-4">
+                    <h2>격리</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+                <div class="col-4">
+                    <h2>제한</h2>
+                    <p>In placerat porttitor ante, vel auctor ex bibendum a. In dapibus urna tincidunt, ultrices felis at, mattis metus.
+                        Mauris pellentesque est vitae arcu venenatis aliquet. Vestibulum scelerisque metus at eros ullamcorper, ut consectetur urna consequat.
+                        Fusce a porttitor est, at ultricies urna. Nam dictum sollicitudin massa in euismod.
+                        Cras aliquam porttitor enim, quis finibus ligula vulputate non. Sed eleifend sed leo in condimentum.</p>
+                    <button type="button" class="btn btn-light">자세히 보기 &blacktriangleright;</button>
+                </div>
+            </div>
+        </article>
     </div>
 
     <footer>
