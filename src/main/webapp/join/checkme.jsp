@@ -53,8 +53,80 @@
             <hr>
         </div>
 
-        <div class="card card-body bg-light mt-5 mx-3"></div>
-        <div class="card card-body bg-light mt-5 mx-3"></div>
+        <div class="card card-body bg-light mt-5 mx-3">
+            <h3>회원가입</h3>
+            <form action="checkfrm1" name="checkfrm1">
+                <div class="row">
+                    <div class="col-5 offset-1">
+                        <div class="row mb-3">
+                            <label for="name"
+                                   class="col-4 col-form-label text-warning text-end">이름</label>
+                            <div class="col-6">
+                            <input type="text" name="name" id="name"
+                                   class="form-control border-warning"/></div>
+                        </div>
+                        <div class="row mb-2">
+                            <label for="byear"
+                                   class="col-4 col-form-label text-warning text-end">생년월일</label>
+                            <div class="col-3">
+                                <select name="byear" id="byear" class="form-select col-3 border-warning">
+                                    <option>년도</option>
+                                    <option>2023</option>
+                                    <option>2022</option>
+                                    <option>2021</option>
+                                    <option>2020</option>
+                                </select>
+                        </div>
+                            <div class="col-2">
+                                <select name="bmonth" id="bmonth" class="form-select col-2 border-warning">
+                                    <option>월</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                </select>
+                            </div>
+                            <div class="col-2">
+                                <select name="bday" id="bday" class="form-select col-2 border-warning">
+                                    <option>일</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                    </div>
+                        <div class="row mb-3">
+                            <label for="gender"
+                                   class="col-4 col-form-label text-warning text-end">성별</label>
+                            <div class="col-3 mt-2">
+                                <div class="form-check">
+                                    <input type="radio" name="gender" id="gmale" value="m" checked
+                                           class="form-check-input"/>
+                                    <label for="gmale"
+                                           class="form-check-label text-warning">남자</label>
+                                </div>
+                            </div>
+                            <div class="col-3 mt-2">
+                                <div class="form-check">
+                                    <input type="radio" name="gender" id="gfemale" value="f"
+                                           class="form-check-input"/>
+                                    <label for="gfemale"
+                                           class="form-check-label text-warning">여자</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-5"></div>
+                </div>
+                <div class="row"></div>
+            </form>
+        </div>
+        <div class="card card-body bg-light mt-5 mx-3">
+            <h3>실명확인 회원가입</h3>
+            <form action="checkfrm2" name="checkfrm2"></form>
+        </div>
 
     </div>
 
