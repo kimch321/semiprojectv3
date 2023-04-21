@@ -56,13 +56,27 @@
 
         <div class="card card-body bg-light mt-5 mx-3">
             <h3 class="mb-5">일반회원</h3>
+
+            <form name="joinfrm" id="joinfrm">
+                <div class="row"></div>
+                <div class="row">
+                    <div class="col text-center">
+                        <hr class="w-75 mx-auto">
+                        <button type="button"
+                                class="btn btn-primary" id="check2btn">
+                            <i class="fas fa-check-circle"></i> 입력완료</button>
+                        <button type="button"
+                                class="btn btn-danger" id="cancle2btn">
+                            <i class="fas fa-times-circle"></i> 입력취소</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <!-- 우편변호 폼 모달-->
 
         <script src="https://www.google.com/recaptcha/api.js"></script>
     </div>
-
 
     <footer class="mt-5">
         <h6 class="col text-end bg-dark p-3 bg-opacity-10 fw-bold">
